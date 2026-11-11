@@ -16,8 +16,6 @@ URLS = [
     "https://ikman.lk/en/ads/sri-lanka/cars",
     "https://riyasewana.com/search/cars",
     "https://riyasewana.com/search/suvs",
-    "https://patpat.lk/en/sri-lanka/vehicle/car",
-    "https://patpat.lk/en/sri-lanka/vehicle/suv",
 ]
 
 CDX_ENDPOINT = "https://web.archive.org/cdx/search/cdx"
