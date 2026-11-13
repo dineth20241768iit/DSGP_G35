@@ -1,8 +1,10 @@
 """ This file is for cleaning the captured indexes of the archives. here I am using pandas to parse through the code"""
 
 import pandas as pd
-import numpy as np
 import json
+import data.CDX_indexes as cdi
+import os
+from pathlib import Path
 
-df = pd.read_json(json_file)
-print(df.head())
+#code to cycle through the CSV files
+file = sorted(Path('data').glob('*.json'))
