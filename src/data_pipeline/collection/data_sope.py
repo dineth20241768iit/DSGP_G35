@@ -19,7 +19,7 @@ URLS = [
 ]
 
 CDX_ENDPOINT = "https://web.archive.org/cdx/search/cdx"
-OUT_DIR = Path('/home/dineth/Documents/IIT/Y_2/CM2603/DSGP/DSGP_G35/src/collection/index_data')
+OUT_DIR = Path('/index/CDX_indexes')
 
 
 def fetch_cdx(url, prefix=False, retries=4):
@@ -28,9 +28,10 @@ def fetch_cdx(url, prefix=False, retries=4):
         "output": "json",
         "filter": "statuscode:200",
         "matchType": "prefix" if prefix else "exact",
-        # no collapse here: we keep every capture and dedupe later, so nothing is lost
     }
     full = f"{CDX_ENDPOINT}?{urllib.parse.urlencode(params)}"
+
+    #looping the sites and other variables
     for attempt in range(retries):
         try:
             req = urllib.request.Request(full, headers={"User-Agent": "university-research-project"})
