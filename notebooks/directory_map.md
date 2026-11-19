@@ -7,4 +7,11 @@ ONLY make remote pushes after inspecting the diffs. if you have made a change th
 
 maintenance of the git repo is essential because it's the only proof of our work.
 
+## config
+this file includes any config files that goes into any config of any module if note required at anywhere specific.
 
+## data
+Anything data related and datasets are stored in this directory.
+
+## notebooks
+This is for the developers. this includes all the information needed to get started on the project and other development choices made.

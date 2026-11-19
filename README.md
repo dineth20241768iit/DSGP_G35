@@ -8,4 +8,4 @@ We searched for data sets and read the existing research. which does not include
 For that we interfaced with [CDX](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://archive.org/help/wayback_api.php&ved=2ahUKEwiw3O6e89qXAxXOyTgGHUkRHvAQFnoECA8QAQ&usg=AOvVaw2Q8XdAQddzJrOPO0XwOrTa); the API used to browse the collected data. After collecting a comprehensive account of the available snapshots, we look for repeated scans, other anomalies and clean the list of archive.
 
 #### Extracting indexed archives
-To Extract data from the archives in wayback machine, the archies are downloaded and extracted and the HTML or JS code is parsed
+To Extract data from the archives in wayback machine, the archives are downloaded and extracted and the HTML or JS code is parsed

@@ -1,7 +1,9 @@
 # DEV notes
 ---
 ## general suggestions
-I suggest using the same virtual python environment. I have not included my python venv (large size). run the requrements.txt file as
+I suggest using the same virtual python environment. I have not included my python venv (large size). run the requrements.txt file as note that I have used *Python 3.15.2*. make sure to use the same version so we are in the same page.
+
+if you are using pip run the following command to add the requirements to the venv, otherwise, just open the [requirements.txt](/requirements.txt) and accept the prompt to install the packages.
 ```python
 pip install requirements.txt
 ```
