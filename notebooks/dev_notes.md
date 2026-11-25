@@ -14,5 +14,11 @@ pip freeze -> requirements.txt
 if your editor suggests you to update package versions (pandas) do not do so because my code expects pandas 3.10. update your dependencies if only you are sure that updates will not break your code.
 
 If there are files that you wish not to add to the git tracking list, include it in the .gitignore file.
+## Remote repository maintainance
+Brhacnes are for significant forks fo work in the project. we dont have to fork (branch out) for every internal feature of the project. for instance, branching out for "frontend" and "backend" is the incorrect structure, and braching out for changes in the development direction is the correct structure.Read [this](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell) for more reference. there is a branch called dev. push your code into that from now on using the
+```bash
+git push origin dev
+```
+ command. that will push your code to the volatile branch and keep the main branch as the production downdstream (thus stable) branch.
 ## README.md
 I will maintain the readme file. do not add anything to the main project readme. instead explain your work or leave any other notes in 'notebooks' folder as a md file.
