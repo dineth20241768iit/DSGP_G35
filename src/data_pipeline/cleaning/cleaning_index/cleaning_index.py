@@ -1,10 +1,11 @@
-"""Read raw CDX json files, clean them, write json to data/processed/."""
+"""Read raw CDX JSON files, clean them, write JSON to data/processed/."""
 import ast
 import json
 from pathlib import Path
 
 import pandas as pd
 
+#input and output paths
 ROOT = Path(__file__).resolve().parents[4]
 RAW = ROOT / "data" / "raw" / "CDX_indexes"
 OUT = ROOT / "data" / "processed"
