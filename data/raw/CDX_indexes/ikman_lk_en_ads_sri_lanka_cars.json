@@ -1,12 +1,12 @@
 [
   {
-    "urlkey": "lk,ikman)/en/ads/sri-lanka/cars", //this is the URL involved in the indexing (its the same for one site/one page on one site)
-    "timestamp": "20170107165014", //this is the data and time when the indexing had taken place.
-    "original": "http://ikman.lk:80/en/ads/sri-lanka/cars", //original link of the site
+    "urlkey": "lk,ikman)/en/ads/sri-lanka/cars",
+    "timestamp": "20170107165014",
+    "original": "http://ikman.lk:80/en/ads/sri-lanka/cars",
     "mimetype": "text/html",
-    "statuscode": "200", //status code refers to the server response to the client. refer notebooks/cdx.md for more information
-    "digest": "SV2SW33TVHRTLRNOU4QLQSKO7DGAFBVS", //digset is a key of sorts that represents the content inside (irrelevant)
-    "length": "10702" //This is the size of the archie in bytes. note that they have their own compressed format to store archived websites.
+    "statuscode": "200",
+    "digest": "SV2SW33TVHRTLRNOU4QLQSKO7DGAFBVS",
+    "length": "10702"
   },
   {
     "urlkey": "lk,ikman)/en/ads/sri-lanka/cars",
